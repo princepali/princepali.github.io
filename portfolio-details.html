@@ -1,114 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Portfolio Details - Personal Bootstrap Template</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: MyResume
-  * Updated: Mar 10 2023 with Bootstrap v5.2.3
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Detailed professional project experience of Prince Pali across smart metering, product analytics and enterprise e-commerce platforms.">
+    <meta name="author" content="Prince Pali">
+    <title>Project Experience | Prince Pali</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
+<body class="details-page">
+    <header class="details-header"><div class="container d-flex justify-content-between align-items-center"><a href="index.html" class="details-brand">PP<span>.</span></a><a href="index.html#projects" class="back-link"><i class="bi bi-arrow-left"></i> Back to portfolio</a></div></header>
+    <main>
+        <section class="details-hero"><div class="container"><p class="eyebrow">SELECTED PROFESSIONAL WORK</p><h1>Project <span>experience</span></h1><p>Engineering contributions across energy technology, product intelligence and enterprise commerce.</p><div class="details-jump"><a href="#kimbal">01 · Kimbal</a><a href="#intrics">02 · Intrics</a><a href="#axtrum">03 · Axtrum</a></div></div></section>
 
-<body>
-
-  <main id="main">
-
-    <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="">
+        <section id="kimbal" class="case-study">
+            <div class="container">
+                <div class="case-kicker">01 / SMART METERING & ENERGY</div><div class="row g-5">
+                    <div class="col-lg-8">
+                        <h2>Smart Metering & Energy Monitoring Platform</h2><p class="case-lead">A distributed platform designed to communicate with, route data from and monitor a large fleet of smart meters through independently deployable services and asynchronous processing.</p>
+                        <h3>Project context</h3><p>The platform supports communication and monitoring workflows across more than 10 lakh meters. My work focused on enhancing backend microservices, implementing event-driven processing, improving historical routing queries and supporting containerized deployments.</p>
+                        <h3>My responsibilities & engineering contributions</h3><ul class="case-list">
+                            <li><strong>Microservices development:</strong> Designed and enhanced 25+ microservices involved in real-time meter communication, routing and monitoring.</li>
+                            <li><strong>Event-driven processing:</strong> Built and maintained asynchronous workflows using Kafka and Azure Functions to decouple processing and support reliable service-to-service communication.</li>
+                            <li><strong>Command processing:</strong> Worked on command receiver workflows in which command types 4, 5 and 6 are routed to block-load, daily-load and billing data processing paths, respectively.</li>
+                            <li><strong>Topic-based integration:</strong> Worked with Kafka topic flows associated with load-survey, daily-profile and billing-profile data processing.</li>
+                            <li><strong>Database performance:</strong> Improved historical routing performance through composite indexes and optimized PostgreSQL structures; worked on query behavior and time-related data handling.</li>
+                            <li><strong>Container orchestration:</strong> Worked with Dockerized services running on Kubernetes and deployments managed through ArgoCD.</li>
+                            <li><strong>Observability & support:</strong> Used SigNoz for monitoring, investigation and root-cause analysis, supporting production reliability.</li>
+                        </ul>
+                        <h3>Technology stack</h3><div class="case-tech"><span>C#</span><span>.NET / ASP.NET Core</span><span>Azure Functions</span><span>Kafka</span><span>RabbitMQ</span><span>PostgreSQL</span><span>Docker</span><span>Kubernetes</span><span>ArgoCD</span><span>SigNoz</span></div>
+                        <h3>Engineering focus</h3><p>Scalable microservices, asynchronous communication, command routing, high-volume data workflows, database query optimization, containerized deployment and production observability.</p>
+                        <div class="case-callout"><i class="bi bi-lightbulb"></i><p><strong>Key scale:</strong> 25+ microservices enhanced on a platform supporting communication and monitoring across 10+ lakh meters.</p></div>
+                    </div><aside class="col-lg-4"><div class="case-sidebar"><p>ROLE</p><h4>Software Engineer</h4><p>ORGANIZATION</p><h4>Kimbal Private Limited</h4><p>PERIOD</p><h4>Jan 2026 – Present</h4><p>DOMAIN</p><h4>Smart Metering / Energy Management</h4><p>CORE AREAS</p><h4>Microservices · Messaging · PostgreSQL · Kubernetes</h4></div></aside>
                 </div>
+            </div>
+        </section>
 
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
+        <section id="intrics" class="case-study case-study-alt">
+            <div class="container">
+                <div class="case-kicker">02 / RETAIL ANALYTICS & PRODUCT INTELLIGENCE</div><div class="row g-5">
+                    <div class="col-lg-8">
+                        <h2>Intrics Platform · Product360 · W4 Catalog</h2><p class="case-lead">A set of product and analytics solutions involving pricing intelligence, product matching, product-data enrichment and catalog management workflows.</p>
+                        <h3>Project context</h3><p>The work covered backend capabilities for analytics and product information workflows. The solutions combined REST APIs, serverless functions and data-processing capabilities to support pricing analysis, product matching and catalog operations.</p>
+                        <h3>My responsibilities & engineering contributions</h3><ul class="case-list">
+                            <li><strong>REST API development:</strong> Built backend APIs and modules using C# and ASP.NET Core to expose business functionality to application workflows.</li>
+                            <li><strong>Pricing analytics:</strong> Developed backend functionality supporting pricing-related analytics in the Intrics platform.</li>
+                            <li><strong>Product matching:</strong> Contributed to Product360 workflows for matching and organizing product information.</li>
+                            <li><strong>Catalog management:</strong> Worked on W4 Catalog backend functionality for catalog-related data management.</li>
+                            <li><strong>Serverless processing:</strong> Developed Azure Functions to execute backend and data-processing tasks.</li>
+                            <li><strong>Large-scale data processing:</strong> Used Azure Databricks in product-data workflows to improve data quality and product mapping.</li>
+                            <li><strong>Production support:</strong> Investigated defects, debugged backend workflows, tuned performance and resolved production issues.</li>
+                        </ul>
+                        <h3>Technology stack</h3><div class="case-tech"><span>C#</span><span>ASP.NET Core</span><span>REST APIs</span><span>Angular</span><span>Azure Functions</span><span>Azure Databricks</span><span>SQL Server</span></div>
+                        <h3>Engineering focus</h3><p>API and business-logic development, product-data transformations, pricing analytics workflows, serverless processing, data quality and production troubleshooting.</p>
+                    </div><aside class="col-lg-4"><div class="case-sidebar"><p>ROLE</p><h4>Software Engineer</h4><p>ORGANIZATION</p><h4>Intrics Solutions Pvt. Ltd.</h4><p>PERIOD</p><h4>Jan 2025 – Jan 2026</h4><p>PROJECTS</p><h4>Intrics Platform · Product360 · W4 Catalog</h4><p>DOMAIN</p><h4>Retail Analytics / FMCG Intelligence</h4><p>CORE AREAS</p><h4>REST APIs · Azure · Data Processing</h4></div></aside>
                 </div>
+            </div>
+        </section>
 
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
+        <section id="axtrum" class="case-study">
+            <div class="container">
+                <div class="case-kicker">03 / ENTERPRISE E-COMMERCE</div><div class="row g-5">
+                    <div class="col-lg-8">
+                        <h2>BetterCommerce · The Fragrance Shop · TechData</h2><p class="case-lead">Backend development and support for enterprise commerce applications, including APIs, database-driven features and downstream data integrations.</p>
+                        <h3>Project context</h3><p>At Axtrum Technologies, I worked on web-based .NET applications and e-commerce solutions for enterprise customers. The work included backend service development, database operations, troubleshooting and release support across customer-facing and integration workflows.</p>
+                        <h3>My responsibilities & engineering contributions</h3><ul class="case-list">
+                            <li><strong>Headless commerce APIs:</strong> Developed scalable APIs and backend services for a headless e-commerce platform.</li>
+                            <li><strong>Backend feature development:</strong> Implemented application functionality using C#, ASP.NET Core and ASP.NET MVC.</li>
+                            <li><strong>Data access:</strong> Built database-driven features using SQL Server, Dapper and Entity Framework.</li>
+                            <li><strong>Integration troubleshooting:</strong> Investigated a critical XML feed failure caused by hidden ASCII control characters. Identified the invalid characters as the issue and corrected the feed-processing problem, restoring downstream processing.</li>
+                            <li><strong>Delivery & support:</strong> Participated in sprint activities, code reviews, releases, deployment to different environments and production support.</li>
+                        </ul>
+                        <h3>Technology stack</h3><div class="case-tech"><span>C#</span><span>.NET</span><span>ASP.NET Core</span><span>ASP.NET MVC</span><span>Web API</span><span>SQL Server</span><span>Dapper</span><span>Entity Framework</span><span>Azure</span></div>
+                        <h3>Engineering focus</h3><p>Enterprise API development, headless commerce, relational data access, XML integration troubleshooting, application maintenance and release support.</p>
+                        <div class="case-callout"><i class="bi bi-wrench-adjustable-circle"></i><p><strong>Problem-solving example:</strong> Resolved an XML feed-processing incident by tracing the failure to hidden ASCII control characters in the feed content.</p></div>
+                    </div><aside class="col-lg-4"><div class="case-sidebar"><p>ROLE</p><h4>Software Engineer</h4><p>ORGANIZATION</p><h4>Axtrum Technologies Pvt. Ltd.</h4><p>PERIOD</p><h4>Jul 2022 – Dec 2024</h4><p>CLIENT / PRODUCT WORK</p><h4>BetterCommerce · The Fragrance Shop (UK) · TechData</h4><p>DOMAIN</p><h4>E-Commerce</h4><p>CORE AREAS</p><h4>Backend APIs · SQL Server · Integrations</h4></div></aside>
                 </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
             </div>
-          </div>
+        </section>
 
-          <div class="col-lg-4">
-            <div class="portfolio-info">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-              </ul>
-            </div>
-            <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Details Section -->
-
-  </main><!-- End #main -->
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+        <section class="details-cta"><div class="container"><p class="eyebrow">NEXT STEP</p><h2>Let's build something <span>reliable.</span></h2><p>For opportunities involving .NET, backend engineering, microservices or full-stack development, get in touch.</p><a href="mailto:princepali536@gmail.com" class="btn-primary-custom">Contact Prince <i class="bi bi-arrow-up-right"></i></a><a href="index.html" class="btn-outline-custom">Return to portfolio</a></div></section>
+    </main>
+    <footer class="site-footer"><div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3"><div><strong>Prince Pali<span>.</span></strong><p>Software Engineer · .NET · Distributed Systems</p></div><div class="footer-links"><a href="https://www.linkedin.com/in/princepali/" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/princepali" target="_blank" rel="noopener">GitHub</a><a href="mailto:princepali536@gmail.com">Email</a></div><small>© <span id="year"></span> Prince Pali. All rights reserved.</small></div></footer>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear(); if (window.AOS) AOS.init({ duration: 650, once: true, offset: 60 });</script>
 </body>
-
 </html>
