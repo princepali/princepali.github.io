@@ -1411,3 +1411,35 @@ p {
         font-size: 18px
     }
 }
+
+
+/* Prevent horizontal overflow on mobile */
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#main,
+section,
+.container,
+.row {
+    max-width: 100%;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#hero {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
